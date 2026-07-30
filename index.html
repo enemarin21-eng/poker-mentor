@@ -928,7 +928,7 @@
         } else if (gameStage === 1) { 
             communityCards.push(drawCard());
             const cardElement = document.createElement('div');
-            cardElement.classList.add('card-placeholder');
+                cardElement.classList.add('card-placeholder');
             communityCardsDiv.appendChild(cardElement);
             displayCard(communityCards[3], cardElement);
             dealBtn.textContent = 'Deal River';
